@@ -1,7 +1,7 @@
 ---
-title: Sample markdown post
+title: Post Many Tags
 date: '2019-02-19T23:00:00.000000'
-tags: ['markdown']
+tags: ['markdown', 'sometagaaaaaaaaaaaaaaaaaa', 'sometag', 'sometag']
 draft: false
 summary: This is an example of a markdown post. This is an example of a markdown post. This is an example of a markdown post. This is an example of a markdown post. This is an example of a markdown post.
 ---

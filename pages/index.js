@@ -30,10 +30,10 @@ export async function getStaticProps() {
 
 export default function Home({ posts }) {
   return (
-    <div>
+    <div className='space-y-4 divide-y'>
       {
         posts.map(({ slug, frontmatter }) => (
-          <Card key={slug} title={frontmatter.title} summary={frontmatter.summary}/>
+            <Card key={slug} slug={slug} matter={frontmatter}/>
         ))
       }
     </div>
